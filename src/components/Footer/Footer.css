@@ -1,0 +1,229 @@
+footer {
+    width: 100%;
+    background-color: rgb(10, 10, 10);
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid #ccc;
+}
+
+footer .footer-elements {
+    margin-top: 10px;
+    width: 80dvw;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer .footer-elements .copy-right {
+    font-family: dana;
+    color: white;
+    user-select: none;
+    margin-top: 20px;
+    font-size: 10px;
+}
+
+footer .footer-elements .logo {
+    width: 50px;
+    height: 50px;
+    user-select: none;
+    pointer-events: none;
+}
+footer .footer-elements .section-container {
+    width: 100%;
+    height: 100%;
+    margin-top: 40px;
+    display: flex;
+    direction: rtl;
+    justify-content: center;
+}
+
+footer .footer-elements .section-container .contact-us-container {
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    font-family: dana;
+    color: white;
+    direction: rtl;
+}
+footer .footer-elements .section-container .contact-us-container .title {
+    font-family: dana;
+    font-size: 20px;
+    color: white;
+}
+
+footer .footer-elements .section-container .contact-us-container .texts-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    margin-right: 5px;
+
+}
+footer .footer-elements .section-container .contact-us-container .texts-container .main-branch-address {
+    display: flex;
+    align-items: center;
+    direction: rtl;
+
+}
+footer .footer-elements .section-container .contact-us-container .texts-container .main-branch-address .text {
+    font-family: dana;
+    margin-right: 5px;
+}
+footer .footer-elements .section-container .contact-us-container .texts-container .main-branch-address img {
+    width: 30px;
+    height: 30px;
+    user-select: none;
+    pointer-events: none;
+}
+
+
+
+
+footer .footer-elements .section-container .contact-us-container .texts-container .phone-number-container {
+    display: flex;
+    align-items: center;
+    direction: rtl;
+    margin-top: 5px;
+
+}
+footer .footer-elements .section-container .contact-us-container .texts-container .phone-number-container .text {
+    font-family: dana;
+    margin-right: 5px;
+}
+footer .footer-elements .section-container .contact-us-container .texts-container .phone-number-container img {
+    width: 30px;
+    height: 30px;
+    user-select: none;
+    pointer-events: none;
+}
+
+
+footer .footer-elements .section-container .contact-us-container .texts-container .consultant-number-container {
+    display: flex;
+    align-items: center;
+    direction: rtl;
+    margin-top: 5px;
+
+}
+footer .footer-elements .section-container .contact-us-container .texts-container .consultant-number-container .text {
+    font-family: dana;
+    margin-right: 5px;
+}
+footer .footer-elements .section-container .contact-us-container .texts-container .consultant-number-container img {
+    width: 30px;
+    height: 30px;
+    user-select: none;
+    pointer-events: none;
+}
+
+
+
+footer .footer-elements .section-container .contact-us-container .social-media-container {
+    margin-top: 15px;
+}
+footer .footer-elements .section-container .contact-us-container .social-media-container .social-media-list {
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+}
+
+footer .footer-elements .section-container .contact-us-container .social-media-container .social-media-list a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.4s;
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+footer .footer-elements .section-container .contact-us-container .social-media-container .social-media-list a:hover img {
+    transform: translateY(-5px);
+}
+footer .footer-elements .section-container .contact-us-container .social-media-container .social-media-list a img {
+    width: 30px;
+    height: 30px;
+    user-select: none;
+    pointer-events: none;
+    transition: 0.4s;
+}
+
+
+footer .footer-elements .section-container .shortcuts-container {
+    /* background-color: green; */
+    margin-right: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+footer .footer-elements .section-container .shortcuts-container .title {
+    font-family: dana;
+    font-size: 20px;
+    color: white;
+}
+footer .footer-elements .section-container .shortcuts-container .links-container {
+    display: flex;
+    flex-direction: column;
+}
+footer .footer-elements .section-container .shortcuts-container .links-container a {
+    color: white;
+    text-decoration: none;
+    font-family: dana;
+    padding: 3px 5px 3px 0px;
+    width: fit-content;
+}
+footer .footer-elements .section-container .shortcuts-container .links-container a:hover {
+    color: #f2b822;
+}
+
+
+
+footer .footer-elements .section-container .permissions-container {
+    margin-right: 5px;
+    display: flex;
+    flex-direction: column;
+}
+footer .footer-elements .section-container .permissions-container .title {
+    font-family: dana;
+    font-size: 20px;
+    color: white;
+}
+footer .footer-elements .section-container .permissions-container .permissions-list {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+
+}
+footer .footer-elements .section-container .permissions-container .permissions-list img {
+    width: 150px;
+    height: 150px;
+    user-select: none;
+    pointer-events: none;
+}
+
+
+
+
+@media only screen and (max-width: 750px) {
+    footer {
+        height: 750px;
+    }
+    /* footer .footer-elements {
+        height: 600px;
+        background-color: gray;
+    } */
+    footer .footer-elements .section-container {
+        display: flex;
+        flex-direction: column;
+        height: 700px;
+    }
+    footer .footer-elements .section-container .shortcuts-container {
+        margin-top: 25px;
+    }
+    footer .footer-elements .section-container .permissions-container {
+        margin-top: 25px;
+    }
+    footer .footer-elements .section-container .permissions-container .permissions-list img {
+        width: 100px;
+        height: 100px;
+    }
+}

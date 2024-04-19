@@ -1,0 +1,151 @@
+main {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+main .blogs-list-container {
+    background-color: rgb(8, 8, 8);
+    width: 95%;
+    margin: 30px 0px 30px 0px;
+}
+
+main .blogs-list-container .blogs-list {
+    display: grid;
+    grid-template-columns: 350px 350px 350px 350px;
+    gap: 15px;
+    width: 100%;
+    height: 100%;
+
+}
+
+
+
+
+.blog-card {
+    width: 350px;
+    height: 450px;
+    background-color: rgb(27, 27, 27);
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    text-decoration: none;
+    position: relative;
+    transition: 0.4s;
+    direction: rtl;
+}
+.blog-card:hover {
+    transform: translateY(-5px);
+}
+.blog-card .blog-image {
+    background-color: rgb(94, 94, 94);
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 1px solid #ccc;
+}
+.blog-card .blog-image img {
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    user-select: none;
+}
+
+.blog-card .blog-details {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.blog-card .blog-details .blog-added-date-container {
+    display: flex;
+    align-items: center;
+    margin-right: 3px;
+}
+.blog-card .blog-details .blog-added-date-container .text {
+    font-family: iransans;
+    font-size: 13px;
+    margin-right: 5px;
+}
+.blog-card .blog-details .blog-added-date-container img {
+    width: 20px;
+    height: 20px;
+    user-select: none;
+    pointer-events: none;
+}
+
+
+
+
+
+
+
+
+.blog-card .blog-details .blog-writer-container {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+.blog-card .blog-details .blog-writer-container .text {
+    font-family: iransans;
+    font-size: 13px;
+    margin-right: 5px;
+}
+.blog-card .blog-details .blog-writer-container img {
+    width: 20px;
+    height: 20px;
+    user-select: none;
+    pointer-events: none;
+}
+
+
+
+
+.blog-card .blog-title {
+    font-family: iransans;
+    text-decoration: none;
+    color: white;
+    font-family: iransans;
+    width: 100%;
+    min-height: 50px;
+    max-height: 50px;
+    padding: 0px 5px 0px 5px;
+    overflow: hidden;
+
+}
+.blog-card .blog-half-description {
+    margin-top: 10px;
+    font-family: iransans;
+    font-size: 14px;
+    width: 100%;
+    padding: 0px 5px 0px 5px;
+    color: white;
+}
+
+.blog-card .read-more-button {
+    background-color: #f2b822;
+    width: 120px;
+    height: 30px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-family: iransans;
+    transition: 0.4s;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 10px;
+}
+.blog-card .read-more-button:hover {
+    background-color: #f1c147;
+}

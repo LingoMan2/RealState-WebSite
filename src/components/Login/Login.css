@@ -1,0 +1,182 @@
+@font-face {
+    font-family: iransans;
+    src: url('../../../public/IRANSansWebFaNum.woff2');
+}
+
+main .login-signup-container .login-container {
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .login-signup-container .login-container .title {
+    font-size: 25px;
+    font-family: iransans;
+    color: white;
+}
+
+main .login-signup-container .login-container .description {
+    font-family: iransans;
+    font-size: 15px;
+    margin-top: 10px;
+    color: white;
+    direction: rtl;
+}
+
+
+main .login-signup-container .login-container .login-inputs {
+    width: 350px;
+    height: 150px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+main .login-signup-container .login-container .login-inputs .login-phone-number-input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    position: relative;
+    margin-top: 30px;
+}
+main .login-signup-container .login-container .login-inputs .login-phone-number-input-container input {
+    width: 250px;
+    height: 30px;
+    border-radius: 10px;
+    border: 0px;
+    outline: 0px;
+    padding-right: 32px;
+    direction: rtl;
+    font-family: iransans;
+
+}
+main .login-signup-container .login-container .login-inputs .login-phone-number-input-container .text {
+    position: absolute;
+    font-size: 15px;
+    font-family: iransans;
+    z-index: 2;
+    right: 30px;
+    user-select: none;
+    pointer-events: none;
+    transition: 0.4s;
+    direction: rtl;
+}
+
+main .login-signup-container .login-container .login-inputs .login-phone-number-input-container img {
+    width: 25px;
+    height: 25px;
+    user-select: none;
+    pointer-events: none;
+    position: absolute;
+    z-index: 2;
+    right: 5px;
+}
+
+
+
+
+
+
+
+main .login-signup-container .login-container .login-inputs .login-password-input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    position: relative;
+    margin-top: 30px;
+}
+main .login-signup-container .login-container .login-inputs .login-password-input-container input {
+    width: 250px;
+    height: 30px;
+    border-radius: 10px;
+    border: 0px;
+    outline: 0px;
+    padding-right: 32px;
+    direction: rtl;
+    font-family: iransans;
+
+}
+main .login-signup-container .login-container .login-inputs .login-password-input-container .text {
+    position: absolute;
+    font-size: 15px;
+    font-family: iransans;
+    z-index: 2;
+    right: 35px;
+    user-select: none;
+    pointer-events: none;
+    transition: 0.4s;
+
+}
+main .login-signup-container .login-container .login-inputs .login-password-input-container .toggle-show-password-container {
+    z-index: 3;
+    left: 0px;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+main .login-signup-container .login-container .login-inputs .login-password-input-container .toggle-show-password-container:hover {
+    opacity: 0.8;
+}
+main .login-signup-container .login-container .login-inputs .login-password-input-container .toggle-show-password-container img {
+    width: 25px;
+    height: 25px;
+    user-select: none;
+    pointer-events: none;
+}
+
+main .login-signup-container .login-container .login-inputs .login-password-input-container .password-icon {
+    width: 25px;
+    height: 25px;
+    user-select: none;
+    pointer-events: none;
+    position: absolute;
+    z-index: 2;
+    right: 5px;
+}
+
+
+main .login-signup-container .login-container .login-button {
+    background-color: #f2b822;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    font-family: iransans;
+    font-size: 17px;
+    border: 0px;
+    color: black;
+    cursor: pointer;
+}
+main .login-signup-container .login-container .login-button:hover {
+    opacity: 0.8;
+}
+
+
+
+main .login-signup-container .login-container .switch-to-signup-text {
+    font-family: iransans;
+    margin-top: 20px;
+    display: flex;
+    direction: rtl;
+    color: white;
+}
+main .login-signup-container .login-container .switch-to-signup-button {
+    color: blue;
+    margin-right: 5px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+main .login-signup-container .login-container .switch-to-signup-button:hover {
+    opacity: 0.8;
+}

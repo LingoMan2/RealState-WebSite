@@ -1,0 +1,6 @@
+main {
+    /* background-color: #252525; */
+    background-color: rgb(10, 10, 10);
+    display: flex;
+    justify-content: center;
+}

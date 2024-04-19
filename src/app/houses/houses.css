@@ -1,0 +1,247 @@
+main {
+    background-color: black;
+    /* min-height: calc(100dvh - 78px); */
+    display: flex;
+    justify-content: center;
+}
+
+main .houe-list-container {
+    width: 90%;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    display: flex;
+    justify-content: space-between;
+}
+main .houe-list-container .house-list {
+    width: calc(100% - 250px);
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-columns: 23dvw 23dvw 23dvw;
+    gap: 0.3vw;
+}
+main .houe-list-container .search-settings-container {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    width: 250px;
+    height: 600px;
+}
+main .houe-list-container .search-settings-container .spilter {
+    width: 100%;
+    margin-top: 3vh;
+    display: flex;
+    align-items: center;
+    direction: rtl;
+    border-top: 2px solid white;
+    color: white;
+    position: relative;
+}
+main .houe-list-container .search-settings-container .spilter .spliter-title {
+    font-family: iransans;
+    font-size: 3vh;
+    position: absolute;
+    margin-right: 1.5vh;
+    background-color: black;
+    padding: 0px 1vh 0px 1vh;
+}
+main .houe-list-container .search-settings-container .search-by-name {
+    display: flex;
+    flex-direction: column;
+    direction: rtl;
+    height: 60px;
+    margin-top: 3vh;
+    position: relative;
+    border-top: 1px solid white;
+}
+main .houe-list-container .search-settings-container .search-by-name .title {
+    font-size: 2vh;
+    font-family: iransans;
+    position: absolute;
+    top: -15px;
+    right: 5px;
+    background-color: black;
+    color: white;
+    padding: 0px 1vh 0px 1vh;
+}
+
+
+main .houe-list-container .search-settings-container .search-by-name .search-input-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2vh;
+    position: relative;
+    width: 100%;
+}
+main .houe-list-container .search-settings-container .search-by-name .search-input-container input {
+    width: 90%;
+    height: 35px;
+    border-radius: 20px;
+    border: 0px;
+    font-family: iransans;
+    font-size: 2vh;
+    padding-right: 35px;
+    padding-left: 1vh;
+}
+main .houe-list-container .search-settings-container .search-by-name .search-input-container img {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: 20px;
+    pointer-events: none;
+    user-select: none;
+}
+
+
+
+
+
+
+
+
+
+main .houe-list-container .search-settings-container .filter-by-date-container {
+    display: flex;
+    flex-direction: column;
+    direction: rtl;
+    height: 60px;
+    margin-top: 5vh;
+    position: relative;
+
+}
+main .houe-list-container .search-settings-container .filter-by-date-container .title {
+    font-size: 2vh;
+    font-family: iransans;
+    position: absolute;
+    top: -15px;
+    right: 5px;
+    color: white;
+    padding: 0px 1vh 0px 1vh;
+}
+
+
+main .houe-list-container .search-settings-container .filter-by-date-container .filter-by-date-input-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2vh;
+    position: relative;
+    width: 100%;
+}
+main .houe-list-container .search-settings-container .filter-by-date-container .filter-by-date-input-container input {
+    width: 90%;
+    height: 35px;
+    border-radius: 20px;
+    border: 0px;
+    font-family: iransans;
+    font-size: 2vh;
+    padding-right: 35px;
+    padding-left: 1vh;
+}
+main .houe-list-container .search-settings-container .filter-by-date-container .filter-by-date-input-container img {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: 20px;
+    pointer-events: none;
+    user-select: none;
+}
+
+
+
+
+
+main .houe-list-container .search-settings-container .filter-by-location-container {
+    display: flex;
+    flex-direction: column;
+    direction: rtl;
+    height: 60px;
+    margin-top: 3vh;
+    position: relative;
+}
+main .houe-list-container .search-settings-container .filter-by-location-container .title {
+    font-size: 2vh;
+    font-family: iransans;
+    position: absolute;
+    top: -15px;
+    right: 5px;
+    color: white;
+    padding: 0px 1vh 0px 1vh;
+}
+
+
+main .houe-list-container .search-settings-container .filter-by-location-container .filter-by-location-input-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2vh;
+    position: relative;
+    width: 100%;
+}
+main .houe-list-container .search-settings-container .filter-by-location-container .filter-by-location-input-container input {
+    width: 90%;
+    height: 35px;
+    border-radius: 20px;
+    border: 0px;
+    font-family: iransans;
+    font-size: 2vh;
+    padding-right: 35px;
+    padding-left: 1vh;
+}
+main .houe-list-container .search-settings-container .filter-by-location-container .filter-by-location-input-container img {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: 20px;
+    pointer-events: none;
+    user-select: none;
+}
+
+
+
+
+main .houe-list-container .search-settings-container .filter-by-meterage-contianer {
+    display: flex;
+    flex-direction: column;
+    direction: rtl;
+    height: 60px;
+    margin-top: 3vh;
+    position: relative;
+}
+main .houe-list-container .search-settings-container .filter-by-meterage-contianer .title {
+    font-size: 2vh;
+    font-family: iransans;
+    position: absolute;
+    top: -15px;
+    right: 5px;
+    color: white;
+    padding: 0px 1vh 0px 1vh;
+}
+
+
+main .houe-list-container .search-settings-container .filter-by-meterage-contianer .filter-by-meterage-input-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2vh;
+    position: relative;
+    width: 100%;
+}
+main .houe-list-container .search-settings-container .filter-by-meterage-contianer .filter-by-meterage-input-container input {
+    width: 90%;
+    height: 35px;
+    border-radius: 20px;
+    border: 0px;
+    font-family: iransans;
+    font-size: 2vh;
+    padding-right: 35px;
+    padding-left: 1vh;
+}
+main .houe-list-container .search-settings-container .filter-by-meterage-contianer .filter-by-meterage-input-container img {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: 20px;
+    pointer-events: none;
+    user-select: none;
+}

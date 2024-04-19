@@ -1,0 +1,423 @@
+main {
+    height: auto;
+}
+
+main .background-image {
+    width: 100%;
+    background-image: url('../../../helpers/Houses-Images/5326079.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 3;
+    padding-top: 50dvh;
+}
+
+
+main .house-detail-contianer {
+    background-color: black;
+    width: 100%;
+    z-index: 2;
+    border-top: 1px solid white;
+    box-shadow: 0px -10px 30px 2px black;
+    display: flex;
+    justify-content: center;
+}
+
+main .house-detail-contianer .house-detail {
+    background-color: rgb(10, 10, 10);
+    width: 90%;
+    min-height: 1000px;
+}
+
+
+main .house-detail-contianer .house-detail .head-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+main .house-detail-contianer .house-detail .head-section .section1 {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    position: relative;
+}
+main .house-detail-contianer .house-detail .head-section .section1 .house-main-picture {
+    background-image: url('../../../helpers/Houses-Images/5326079.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 30vw;
+    height: 25vw;
+    position: absolute;
+    left: 2dvw;
+    top: -10dvh;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+main .house-detail-contianer .house-detail .head-section .section1 .house-main-picture .house-sold {
+    position: absolute;
+    border-radius: 10px;
+    border: 4px solid red;
+    padding: 2vh 6vh 2vh 6vh;
+    color: white;
+    background-color: rgba(255, 0, 0, 0.5);
+    font-family: iransans;
+    font-size: 4vh;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(30deg);
+}
+
+
+main .house-detail-contianer .house-detail .head-section .section1 .house-name-and-details {
+    display: flex;
+    flex-direction: column;
+    direction: rtl;
+    max-width: 55dvw;
+    margin-bottom: 2dvh;
+}
+main .house-detail-contianer .house-detail .head-section .section1 .house-name-and-details .name-container {
+    display: flex;
+    align-items: center;
+    margin-top: 1dvh;
+}
+main .house-detail-contianer .house-detail .head-section .section1 .house-name-and-details .name-container .name {
+    font-size: 3dvh;
+    font-family: iransans;
+    color: white;
+    margin-right: 0.7dvw;
+}
+main .house-detail-contianer .house-detail .head-section .section1 .house-name-and-details .name-container .house-sold {
+    border-radius: 10px;
+    border: 2px solid red;
+    color: white;
+    background-color: rgba(255, 0, 0, 0.5);
+    font-family: iransans;
+    font-size: 2.5dvh;
+    width: 10dvw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1dvw;
+}
+main .house-detail-contianer .house-detail .head-section .section1 .house-name-and-details .details {
+    margin-top: 2dvh;
+    margin-right: 0.5dvw;
+}
+
+
+
+main .house-detail-contianer .house-detail .head-section .section1 .house-name-and-details .details .added-date-container {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+
+}
+main .house-detail-contianer .house-detail .head-section .section1 .house-name-and-details .details .added-date-container .text {
+    font-size: 2dvh;
+    font-family: iransans;
+    margin-right: 0.2dvw;
+    color: white;
+}
+main .house-detail-contianer .house-detail .head-section .section1 .house-name-and-details .details .added-date-container img {
+    width: 1.7dvw;
+    pointer-events: none;
+    user-select: none;
+}
+
+
+
+
+main .house-detail-contianer .house-detail .head-section .section1 .house-name-and-details .details .address-container {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+    
+}
+main .house-detail-contianer .house-detail .head-section .section1 .house-name-and-details .details .address-container .text {
+    font-size: 2dvh;
+    font-family: iransans;
+    margin-right: 0.2dvw;
+    color: white;
+}
+main .house-detail-contianer .house-detail .head-section .section1 .house-name-and-details .details .address-container img {
+    width: 1.7dvw;
+    pointer-events: none;
+    user-select: none;
+}
+
+
+main .house-detail-contianer .house-detail .head-section .section1 .house-name-and-details .details .meterage-container {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+    
+}
+main .house-detail-contianer .house-detail .head-section .section1 .house-name-and-details .details .meterage-container .text {
+    font-size: 2dvh;
+    font-family: iransans;
+    margin-right: 0.2dvw;
+    color: white;
+}
+main .house-detail-contianer .house-detail .head-section .section1 .house-name-and-details .details .meterage-container img {
+    width: 1.7dvw;
+    pointer-events: none;
+    user-select: none;
+}
+
+
+main .house-detail-contianer .house-detail .head-section .section1 .house-name-and-details .details .has-parking-container {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+    
+}
+main .house-detail-contianer .house-detail .head-section .section1 .house-name-and-details .details .has-parking-container .text {
+    font-size: 2dvh;
+    font-family: iransans;
+    margin-right: 0.2dvw;
+    color: white;
+}
+main .house-detail-contianer .house-detail .head-section .section1 .house-name-and-details .details .has-parking-container img {
+    width: 1.7dvw;
+    pointer-events: none;
+    user-select: none;
+}
+
+
+
+main .house-detail-contianer .house-detail .head-section .section1 .house-name-and-details .details .has-warehouse-container {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+    
+}
+main .house-detail-contianer .house-detail .head-section .section1 .house-name-and-details .details .has-warehouse-container .text {
+    font-size: 2dvh;
+    font-family: iransans;
+    margin-right: 0.2dvw;
+    color: white;
+}
+main .house-detail-contianer .house-detail .head-section .section1 .house-name-and-details .details .has-warehouse-container img {
+    width: 1.7dvw;
+    pointer-events: none;
+    user-select: none;
+}
+
+
+
+main .house-detail-contianer .house-detail .head-section .section1 .house-name-and-details .details .sanad-tak-barg-container {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+    
+}
+main .house-detail-contianer .house-detail .head-section .section1 .house-name-and-details .details .sanad-tak-barg-container .text {
+    font-size: 2dvh;
+    font-family: iransans;
+    margin-right: 0.2dvw;
+    color: white;
+}
+main .house-detail-contianer .house-detail .head-section .section1 .house-name-and-details .details .sanad-tak-barg-container img {
+    width: 1.7dvw;
+    pointer-events: none;
+    user-select: none;
+}
+
+
+
+main .house-detail-contianer .house-detail .head-section .section1 .house-name-and-details .details .year-of-construction-container {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+    
+}
+main .house-detail-contianer .house-detail .head-section .section1 .house-name-and-details .details .year-of-construction-container .text {
+    font-size: 2dvh;
+    font-family: iransans;
+    margin-right: 0.2dvw;
+    color: white;
+}
+main .house-detail-contianer .house-detail .head-section .section1 .house-name-and-details .details .year-of-construction-container img {
+    width: 1.7dvw;
+    pointer-events: none;
+    user-select: none;
+}
+
+
+
+
+
+main .house-detail-contianer .house-detail .head-section .section1 .house-name-and-details .details .price-container {
+    display: flex;
+    align-items: center;
+    font-family: iransans;
+    font-size: 2.5dvh;
+    margin-top: 3dvh;
+    color: white;
+}
+
+
+
+main .house-detail-contianer .house-detail .head-section .section2 {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    border-bottom: 1px solid white;
+}
+main .house-detail-contianer .house-detail .head-section .section2 .buttons-non-select {
+    background-color: black;
+    color: white;
+    width: 130px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 2vh;
+    font-family: iransans;
+}
+main .house-detail-contianer .house-detail .head-section .section2 .buttons-non-select:hover {
+    opacity: 0.8;
+}
+main .house-detail-contianer .house-detail .head-section .section2 .buttons-select {
+    background-color: rgb(20, 20, 20);
+    border-bottom: 3px solid #f2b822;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 130px;
+    color: white;
+    cursor: pointer;
+    font-size: 2vh;
+    font-family: iransans;
+}
+
+
+
+main .house-detail-contianer .house-detail .section3 {
+    width: 100%;
+}
+
+
+main .house-detail-contianer .house-detail .section3 .pictures-container {
+    width: 100%;
+    direction: rtl;
+    display: flex;
+    flex-direction: column;
+}
+
+main .house-detail-contianer .house-detail .section3 .pictures-container .title {
+    margin-top: 2dvh;
+    margin-right: 1dvw;
+    font-size: 2.5dvh;
+    font-family: iransans;
+    color: white;
+}
+
+main .house-detail-contianer .house-detail .section3 .pictures-container .pictures {
+    width: 95%;
+    margin: 2dvh auto 4dvh auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1dvh;
+}
+
+main .house-detail-contianer .house-detail .section3 .pictures-container .pictures .picture-card {
+    width: 15dvw;
+    height: 15dvw;
+    border-radius: 10px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+
+
+
+main .house-detail-contianer .house-detail .section3 .description-container {
+    width: 100%;
+    direction: rtl;
+    height: 500px;
+}
+main .house-detail-contianer .house-detail .section3 .description-container .title {
+    margin-top: 2dvh;
+    margin-right: 1dvw;
+    font-size: 2.5dvh;
+    font-family: iransans;
+    color: white;
+}
+main .house-detail-contianer .house-detail .section3 .description-container .description {
+    width: 100%;
+    padding: 0px 0.5dvw 0px 0.5dvw;
+    margin-top: 1dvh;
+    font-size: 2dvh;
+    font-family: iransans;
+    color: white;
+}
+
+main .house-detail-contianer .house-detail .section3 .comments-container {
+    width: 100%;
+    direction: rtl;
+    margin-bottom: 5dvh;
+}
+main .house-detail-contianer .house-detail .section3 .comments-container .title {
+    margin-top: 2dvh;
+    margin-right: 1dvw;
+    font-size: 2.5dvh;
+    font-family: iransans;
+    color: white;
+
+}
+main .house-detail-contianer .house-detail .section3 .comments-container .comments {
+    width: 95%;
+    margin: 3dvh auto 0px auto;
+}
+
+
+main .house-detail-contianer .house-detail .section3 .comments-container .send-comment-container {
+    display: flex;
+    align-items: center;
+    width: 300px;
+    position: relative;
+    margin-right: 1dvw;
+    margin-top: 1dvh;
+}
+main .house-detail-contianer .house-detail .section3 .comments-container .send-comment-container .comment-img {
+    width: 2dvw;
+    height: 2dvw;
+    position: absolute;
+    right: 35px;
+    pointer-events: none;
+    user-select: none;
+}
+main .house-detail-contianer .house-detail .section3 .comments-container .send-comment-container input {
+    width: 250px;
+    height: 40px;
+    padding-right: 37px;
+    background-color: black;
+    color: white;
+    font-family: iransans;
+    font-size: 13px;
+    border-radius: 10px;
+    border: 0px;
+}
+main .house-detail-contianer .house-detail .section3 .comments-container .send-comment-container .send-img {
+    width: 2dvw;
+    height: 2dvw;
+    cursor: pointer;
+}
+
+main .house-detail-contianer .house-detail .section3 .comments-container .send-comment-container .send-img:hover {
+    opacity: 0.8;
+}

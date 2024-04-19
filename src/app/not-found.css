@@ -1,0 +1,41 @@
+body {
+    background-color: black;
+}
+
+body .not-found-container {
+    width: 100%;
+    height: 100dvh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+body .not-found-container .not-found-image {
+    width: 30vw;
+    height: 30vw;
+}
+
+body .not-found-container .description {
+    font-family: iransans;
+    font-size: 3vh;
+    color: white;
+}
+
+body .not-found-container .back-button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2vh;
+    font-family: iransans;
+    font-size: 2vh;
+    text-decoration: none;
+    color: white;
+}
+body .not-found-container .back-button-container img {
+    width: 30px;
+    height: 30px;
+    transition: 1s;
+}
+body .not-found-container .back-button-container:hover img {
+    transform: translateX(-5px);
+}

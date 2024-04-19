@@ -1,0 +1,143 @@
+.comment {
+    background-color: rgb(20, 20, 20);
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    direction: rtl;
+    position: relative;
+    margin-top: 5dvh;
+    border-radius: 5px;
+}
+
+.comment .account-info {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    border-bottom: 1px solid white;
+}
+.comment .account-info .account-profile-picture {
+    width: 3.5dvw;
+    height: 3.5dvw;
+    background-image: url('../../icons/profile user round gray icon.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.comment .account-info .account-name-and-date-container {
+    margin-right: 0.4dvw;
+}
+.comment .account-info .account-name-and-date-container .account-name {
+    font-family: iransans;
+    font-size: 2dvh;
+    color: white;
+}
+.comment .account-info .account-name-and-date-container .comment-added-date {
+    font-family: iransans;
+    font-size: 1.8dvh;
+    margin-top: 0.5dvh;
+    color: white;
+}
+
+.comment .comment-content {
+    color: white;
+    width: 100%;
+    margin-top: 1dvh;
+    margin-bottom: 7dvh;
+    padding: 0px 1dvh 0px 1dvh;
+    font-family: iransans;
+    font-size: 2dvh;
+}
+
+.comment .comment-modify-container {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 35px;
+    display: flex;
+    gap: 1dvw;
+    border-top: 1px solid white;
+}
+
+
+
+.comment .comment-modify-container .reply-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-right: 0.5dvw;
+}
+.comment .comment-modify-container .reply-button:hover {
+    opacity: 0.8;
+}
+.comment .comment-modify-container .reply-button img {
+    width: 1.5dvw;
+    height: 1.5dvw;
+}
+
+
+
+.comment .comment-modify-container .like-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.comment .comment-modify-container .like-button .like-count {
+    font-family: iransans;
+    margin-right: 0.5dvw;
+    font-size: 2.5dvh;
+    color: white;
+}
+.comment .comment-modify-container .like-button:hover {
+    opacity: 0.8;
+}
+.comment .comment-modify-container .like-button img {
+    width: 1.5dvw;
+    height: 1.5dvw;
+}
+
+
+
+.comment .comment-modify-container .dislike-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.comment .comment-modify-container .dislike-button .dislike-count {
+    font-family: iransans;
+    margin-right: 0.5dvw;
+    font-size: 2.5dvh;
+    color: white;
+}
+.comment .comment-modify-container .dislike-button:hover {
+    opacity: 0.8;
+}
+.comment .comment-modify-container .dislike-button img {
+    width: 1.5dvw;
+    height: 1.5dvw;
+}
+
+
+
+
+.comment .comment-modify-container .three-dots {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: absolute;
+    left: 0px;
+    height: 100%;
+}
+.comment .comment-modify-container .three-dots:hover {
+    opacity: 0.8;
+}
+.comment .comment-modify-container .three-dots img {
+    width: 1.5dvw;
+    height: 1.5dvw;
+}

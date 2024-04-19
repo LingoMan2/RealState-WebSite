@@ -1,0 +1,193 @@
+main .near-houses-container .near-houses-slider-container .near-houses-slider .near-house-card {
+    background-color: rgb(27, 27, 27);
+    width: 300px;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    position: relative;
+    color: white;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+
+
+main .near-houses-container .near-houses-slider-container .near-houses-slider .near-house-card .house-image {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 1px solid #ccc;
+}
+main .near-houses-container .near-houses-slider-container .near-houses-slider .near-house-card .house-image .house-image-img {
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    user-select: none;
+}
+
+main .near-houses-container .near-houses-slider-container .near-houses-slider .near-house-card .house-title {
+    font-family: iransans;
+    width: 100%;
+    max-height: 45px;
+    overflow: hidden;
+    direction: rtl;
+    padding: 0px 5px 0px 5px;
+    margin-top: 5px;
+    color: white;
+}
+
+main .near-houses-container .near-houses-slider-container .near-houses-slider .near-house-card .house-details {
+    width: 100%;
+    height: 75px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-top: 10px;
+    padding: 0px 5px 0px 0px;
+
+}
+
+
+main .near-houses-container .near-houses-slider-container .near-houses-slider .near-house-card .house-description {
+    font-family: iransans;
+    font-size: 13px;
+    direction: rtl;
+    padding: 0px 5px 0px 5px;
+    margin-top: 10px;
+    width: 100%;
+    max-height: 90px;
+}
+
+
+
+
+main .near-houses-container .near-houses-slider-container .near-houses-slider .near-house-card .house-details .house-added-date-container {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    direction: rtl;
+}
+main .near-houses-container .near-houses-slider-container .near-houses-slider .near-house-card .house-details .house-added-date-container .text {
+    font-family: iransans;
+    font-size: 13px;
+    margin-right: 5px;
+}
+main .near-houses-container .near-houses-slider-container .near-houses-slider .near-house-card .house-details .house-added-date-container img {
+    width: 20px;
+    height: 20px;
+    user-select: none;
+    pointer-events: none;
+}
+
+
+
+
+
+
+main .near-houses-container .near-houses-slider-container .near-houses-slider .near-house-card .house-details .house-location-container {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    direction: rtl;
+    margin-top: 5px;
+}
+main .near-houses-container .near-houses-slider-container .near-houses-slider .near-house-card .house-details .house-location-container .text {
+    font-family: iransans;
+    font-size: 13px;
+    margin-right: 5px;
+}
+main .near-houses-container .near-houses-slider-container .near-houses-slider .near-house-card .house-details .house-location-container img {
+    width: 20px;
+    height: 20px;
+    user-select: none;
+    pointer-events: none;
+}
+
+
+
+
+
+
+
+
+main .near-houses-container .near-houses-slider-container .near-houses-slider .near-house-card .house-details .house-Meterage-container {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    direction: rtl;
+    margin-top: 5px;
+}
+main .near-houses-container .near-houses-slider-container .near-houses-slider .near-house-card .house-details .house-Meterage-container .text {
+    font-family: iransans;
+    font-size: 13px;
+    margin-right: 5px;
+}
+main .near-houses-container .near-houses-slider-container .near-houses-slider .near-house-card .house-details .house-Meterage-container img {
+    width: 20px;
+    height: 20px;
+    user-select: none;
+    pointer-events: none;
+}
+
+
+
+
+main .near-houses-container .near-houses-slider-container .near-houses-slider .near-house-card .house-bottom-section {
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+main .near-houses-container .near-houses-slider-container .near-houses-slider .near-house-card .house-bottom-section .house-price-container {
+    display: flex;
+    align-items: center;
+    height: 40px;
+
+}
+main .near-houses-container .near-houses-slider-container .near-houses-slider .near-house-card .house-bottom-section .house-price-container .tuman-icon {
+    font-size: 15px;
+    margin-left: 5px;
+    font-family: iransans;
+}
+main .near-houses-container .near-houses-slider-container .near-houses-slider .near-house-card .house-bottom-section .house-price-container .text {
+    font-family: iransans;
+    margin-left: 5px;
+    font-size: 17px;
+}
+
+
+
+main .near-houses-container .near-houses-slider-container .near-houses-slider .near-house-card .house-bottom-section .house-see-other-details-container {
+    background-color: #f2b822;
+    width: 130px;
+    height: 30px;
+    text-decoration: none;
+    color: black;
+    font-family: iransans;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+main .near-houses-container .near-houses-slider-container .near-houses-slider .near-house-card .house-bottom-section .house-see-other-details-container:hover {
+    opacity: 0.8;
+}
+
+
+
+
+
+@media only screen and (max-width: 750px) {
+    main .near-houses-container .near-houses-slider-container .near-houses-slider .near-house-card {
+        width: 290px;
+    }
+}

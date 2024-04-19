@@ -1,0 +1,310 @@
+main .house-card {
+    background-color: rgb(27, 27, 27);
+    width: 23dvw;
+    height: 550px;
+    overflow: hidden;
+    /* border: 1px solid #ccc; */
+    position: relative;
+    color: white;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+
+
+main .house-card .house-image {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 1px solid #ccc;
+    position: relative;
+}
+main .house-card .house-image .house-image-img {
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    user-select: none;
+}
+
+main .house-card .house-image .house-sold {
+    position: absolute;
+    border-radius: 10px;
+    border: 4px solid red;
+    padding: 1vh 6vh 1vh 6vh;
+    color: white;
+    background-color: rgba(255, 0, 0, 0.5);
+    font-family: iransans;
+    font-size: 2.5vh;
+    top: 50%;
+    left: 50%;
+    z-index: 5;
+    transform: translate(-50%, -50%) rotate(30deg);
+}
+
+main .house-card .house-title {
+    font-family: iransans;
+    width: 100%;
+    max-height: 45px;
+    overflow: hidden;
+    direction: rtl;
+    padding: 0px 5px 0px 5px;
+    margin-top: 5px;
+    color: white;
+}
+
+main .house-card .house-details {
+    width: 100%;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: end; */
+    margin-top: 10px;
+    padding: 0px 5px 0px 0px;
+
+}
+
+
+main .house-card .house-description {
+    font-family: iransans;
+    font-size: 13px;
+    direction: rtl;
+    padding: 0px 5px 0px 5px;
+    margin-top: 10px;
+    width: 100%;
+    max-height: 90px;
+}
+
+
+
+
+main .house-card .house-details .house-added-date-container {
+    display: flex;
+    align-items: center;
+    /* justify-content: end; */
+    direction: rtl;
+}
+main .house-card .house-details .house-added-date-container .text {
+    font-family: iransans;
+    font-size: 13px;
+    margin-right: 5px;
+}
+main .house-card .house-details .house-added-date-container img {
+    width: 20px;
+    height: 20px;
+    user-select: none;
+    pointer-events: none;
+}
+
+
+
+
+
+
+main .house-card .house-details .house-location-container {
+    display: flex;
+    align-items: center;
+    /* justify-content: end; */
+    direction: rtl;
+    margin-top: 5px;
+}
+main .house-card .house-details .house-location-container .text {
+    font-family: iransans;
+    font-size: 13px;
+    margin-right: 5px;
+}
+main .house-card .house-details .house-location-container img {
+    width: 20px;
+    height: 20px;
+    user-select: none;
+    pointer-events: none;
+}
+
+
+
+
+
+
+
+
+main .house-card .house-details .house-Meterage-container {
+    display: flex;
+    align-items: center;
+    /* justify-content: end; */
+    direction: rtl;
+    margin-top: 5px;
+}
+main .house-card .house-details .house-Meterage-container .text {
+    font-family: iransans;
+    font-size: 13px;
+    margin-right: 5px;
+}
+main .house-card .house-details .house-Meterage-container img {
+    width: 20px;
+    height: 20px;
+    user-select: none;
+    pointer-events: none;
+}
+
+
+main .house-card .house-details .has-parking-container {
+    display: flex;
+    align-items: center;
+    /* justify-content: end; */
+    direction: rtl;
+    margin-top: 5px;
+}
+main .house-card .house-details .has-parking-container .text {
+    font-family: iransans;
+    font-size: 13px;
+    margin-right: 5px;
+}
+main .house-card .house-details .has-parking-container img {
+    width: 20px;
+    height: 20px;
+    user-select: none;
+    pointer-events: none;
+}
+
+
+main .house-card .house-details .has-storage-container {
+    display: flex;
+    align-items: center;
+    /* justify-content: end; */
+    direction: rtl;
+    margin-top: 5px;
+}
+main .house-card .house-details .has-storage-container .text {
+    font-family: iransans;
+    font-size: 13px;
+    margin-right: 5px;
+}
+main .house-card .house-details .has-storage-container img {
+    width: 20px;
+    height: 20px;
+    user-select: none;
+    pointer-events: none;
+}
+
+
+
+main .house-card .house-details .tak-barg-sanad-container {
+    display: flex;
+    align-items: center;
+    /* justify-content: end; */
+    direction: rtl;
+    margin-top: 5px;
+}
+main .house-card .house-details .tak-barg-sanad-container .text {
+    font-family: iransans;
+    font-size: 13px;
+    margin-right: 5px;
+}
+main .house-card .house-details .tak-barg-sanad-container img {
+    width: 20px;
+    height: 20px;
+    user-select: none;
+    pointer-events: none;
+}
+
+
+
+
+
+
+
+main .house-card .house-bottom-section {
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+main .house-card .house-bottom-section .house-price-container {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    margin-left: 5px;
+
+}
+main .house-card .house-bottom-section .house-price-container .tuman-icon {
+    font-size: 15px;
+    margin-left: 5px;
+    font-family: iransans;
+}
+main .house-card .house-bottom-section .house-price-container .price {
+    font-family: iransans;
+    margin-left: 5px;
+    font-size: 17px;
+}
+
+
+main .house-card .house-bottom-section .house-old-price-container {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    position: relative;
+    margin-left: 5px;
+}
+main .house-card .house-bottom-section .house-old-price-container .sold-text {
+    position: absolute;
+    font-family: iransans;
+    font-size: 13px;
+    bottom: 30px;
+    left: 30px;
+}
+main .house-card .house-bottom-section .house-old-price-container .tuman-icon {
+    font-size: 15px;
+    margin-left: 5px;
+    font-family: iransans;
+    color: gray;
+}
+main .house-card .house-bottom-section .house-old-price-container .old-price {
+    font-family: iransans;
+    margin-left: 5px;
+    font-size: 17px;
+    color: gray;
+    position: relative;
+}
+main .house-card .house-bottom-section .house-old-price-container::after {
+    content: "";
+    width: 100%;
+    height: 0.1vh;
+    position: absolute;
+    left: 0px;
+    background-color: gray;
+    z-index: 2;
+}
+
+
+main .house-card .house-bottom-section .house-see-other-details-container {
+    background-color: #f2b822;
+    width: 130px;
+    height: 30px;
+    text-decoration: none;
+    color: black;
+    font-family: iransans;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+main .house-card .house-bottom-section .house-see-other-details-container:hover {
+    opacity: 0.8;
+}
+
+
+
+
+
+@media only screen and (max-width: 750px) {
+    main .house-card {
+        width: 290px;
+    }
+}

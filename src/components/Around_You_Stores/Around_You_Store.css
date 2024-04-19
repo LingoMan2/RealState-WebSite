@@ -1,0 +1,93 @@
+main .near-stores-container {
+    width: 85dvw;
+    height: 450px;
+    margin: 100px auto auto auto;
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+    background-color: rgb(8, 8, 8);
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+
+}
+
+main .near-stores-container .title {
+    font-family: dana;
+    font-size: 20px;
+    color: white;
+}
+
+main .near-stores-container .near-stores-slider-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+
+main .near-stores-container .near-stores-slider-container .near-stores-slider-arrow-left {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background: linear-gradient(90deg, #000, transparent);
+    width: 100px;
+    z-index: 2;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+main .near-stores-container .near-stores-slider-container .near-stores-slider-arrow-left:hover img {
+    opacity: 0.8;
+}
+main .near-stores-container .near-stores-slider-container .near-stores-slider-arrow-left img {
+    width: 30px;
+    height: 30px;
+    user-select: none;
+    pointer-events: none;
+    margin-left: 5px;
+}
+
+main .near-stores-container .near-stores-slider-container .near-stores-slider-arrow-right {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    background: linear-gradient(-90deg, #000, transparent);
+    z-index: 2;
+    width: 100px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    cursor: pointer;
+}
+main .near-stores-container .near-stores-slider-container .near-stores-slider-arrow-right:hover img {
+    opacity: 0.8;
+}
+main .near-stores-container .near-stores-slider-container .near-stores-slider-arrow-right img {
+    width: 30px;
+    height: 30px;
+    user-select: none;
+    pointer-events: none;
+    margin-right: 5px;
+
+}
+
+main .near-stores-container .near-stores-slider-container .near-stores-slider {
+    width: auto;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px 300px 300px 300px 300px;
+    gap: 0.5vw;
+    overflow-x: auto;
+    overflow-y: hidden;
+
+
+}
+main .near-stores-container .near-stores-slider-container .near-stores-slider::-webkit-scrollbar {
+    display: none;
+}
+
+
+@media only screen and (max-width: 750px) {
+    
+}

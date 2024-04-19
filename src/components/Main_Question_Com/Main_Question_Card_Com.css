@@ -1,0 +1,24 @@
+main .main-questions-list-container .questions-list-container .question-list .question-card {
+    /* background-color: rgb(15, 15, 15); */
+    height: 60px;
+    margin-right: 1dvw;
+    border-bottom: 1px solid white;
+    text-decoration: none;
+    cursor: pointer;
+}
+main .main-questions-list-container .questions-list-container .question-list .question-card:hover {
+    background-color: rgb(10, 10, 10);
+}
+main .main-questions-list-container .questions-list-container .question-list .question-card .question-title {
+    font-family: iransans;
+    color: white;
+    font-size: 2.5dvh;
+    margin-right: 0.2dvw;
+    padding-top: 0.5dvh;
+}
+main .main-questions-list-container .questions-list-container .question-list .question-card .half-answer {
+    font-family: iransans;
+    color: rgb(200, 200, 200);
+    font-size: 1.5dvh;
+    margin-right: 0.5dvw;
+}

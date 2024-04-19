@@ -1,0 +1,329 @@
+main {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+main .register-advertisment-container {
+    background-color: rgb(8, 8, 8);
+    width: 60%;
+    /* height: 400px; */
+    display: flex;
+    margin: 3dvh;
+    align-items: center;
+    border-radius: 10px;
+    flex-direction: column;
+}
+
+main .register-advertisment-container .title {
+    color: white;
+    font-family: iransans;
+    font-size: 20px;
+    margin-top: 2dvh;
+}
+
+main .register-advertisment-container .section1 {
+    width: 100%;
+    direction: rtl;
+}
+
+main .register-advertisment-container .section2 {
+    width: 500px;
+    display: grid;
+    grid-template-columns: 250px 250px;
+    grid-template-rows: 85px;
+    direction: rtl;
+    margin-top: 2dvh;
+}
+
+main .register-advertisment-container .section1 .description {
+    font-family: iransans;
+    font-size: 15px;
+    margin-right: 0.5dvw;
+    color: white;
+    text-align: center;
+}
+
+
+main .register-advertisment-container .section1 .ad-title-container {
+    position: relative;
+    width: 500px;
+    margin: auto;
+
+}
+main .register-advertisment-container .section1 .ad-title-container .title {
+    font-family: iransans;
+    font-size: 15px;
+    margin-right: 5px;
+
+}
+main .register-advertisment-container .section1 .ad-title-container input {
+    width: 450px;
+    height: 35px;
+    border-radius: 20px;
+    border: 0px;
+    padding-right: 35px;
+    font-family: iransans;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+main .register-advertisment-container .section1 .ad-title-container img {
+    position: absolute;
+    width: 25px;
+    right: 10px;
+    pointer-events: none;
+    user-select: none;
+}
+
+
+
+
+main .register-advertisment-container .section2 .ad-price-container {
+    position: relative;
+
+}
+main .register-advertisment-container .section2 .ad-price-container .title {
+    font-family: iransans;
+    font-size: 15px;
+    margin-right: 5px;
+
+}
+main .register-advertisment-container .section2 .ad-price-container input {
+    width: 200px;
+    height: 35px;
+    border-radius: 20px;
+    border: 0px;
+    padding-right: 35px;
+    font-family: iransans;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+main .register-advertisment-container .section2 .ad-price-container img {
+    position: absolute;
+    width: 25px;
+    right: 10px;
+    pointer-events: none;
+    user-select: none;
+}
+
+
+main .register-advertisment-container .section2 .ad-meterage-container {
+    position: relative;
+
+}
+main .register-advertisment-container .section2 .ad-meterage-container .title {
+    font-family: iransans;
+    font-size: 15px;
+    margin-right: 5px;
+
+}
+main .register-advertisment-container .section2 .ad-meterage-container input {
+    width: 200px;
+    height: 35px;
+    border-radius: 20px;
+    border: 0px;
+    padding-right: 35px;
+    font-family: iransans;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+main .register-advertisment-container .section2 .ad-meterage-container img {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: 10px;
+    bottom: 5px;
+    pointer-events: none;
+    user-select: none;
+}
+
+
+
+main .register-advertisment-container .section2 .ad-construction-year-container {
+    position: relative;
+
+}
+main .register-advertisment-container .section2 .ad-construction-year-container .title {
+    font-family: iransans;
+    font-size: 15px;
+    margin-right: 5px;
+
+}
+main .register-advertisment-container .section2 .ad-construction-year-container input {
+    width: 200px;
+    height: 35px;
+    border-radius: 20px;
+    border: 0px;
+    padding-right: 35px;
+    font-family: iransans;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+main .register-advertisment-container .section2 .ad-construction-year-container img {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: 10px;
+    bottom: 5px;
+    pointer-events: none;
+    user-select: none;
+}
+
+
+
+
+main .register-advertisment-container .section2 .ad-address-container {
+    position: relative;
+}
+main .register-advertisment-container .section2 .ad-address-container .title {
+    font-family: iransans;
+    font-size: 15px;
+    margin-right: 5px;
+
+}
+main .register-advertisment-container .section2 .ad-address-container input {
+    width: 200px;
+    height: 35px;
+    border-radius: 20px;
+    border: 0px;
+    padding-right: 35px;
+    font-family: iransans;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+main .register-advertisment-container .section2 .ad-address-container img {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: 10px;
+    bottom: 5px;
+    pointer-events: none;
+    user-select: none;
+}
+
+
+main .register-advertisment-container .section3 {
+    width: 100%;
+    direction: rtl;
+    margin-top: 15px;
+}
+
+main .register-advertisment-container .section3 .checkboxes-container {
+    width: 500px;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+main .register-advertisment-container .section3 .checkboxes-container .checkbox-container {
+    display: flex;
+    direction: rtl;
+    align-items: center;
+}
+main .register-advertisment-container .section3 .checkboxes-container .checkbox-container .text {
+    font-family: iransans;
+    font-size: 15px;
+    color: white;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+main .register-advertisment-container .section3 .checkboxes-container .checkbox-container input {
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    border-radius: 50%;
+}
+/*main .register-advertisment-container .section3 .checkboxes-container .checkbox-container input:checked {
+    background-color: gray;
+} */
+
+main .register-advertisment-container .section3 .ad-description-container  {
+    margin: auto;
+    width: 500px;
+}
+main .register-advertisment-container .section3 .ad-description-container .title {
+    font-family: iransans;
+    font-size: 15px;
+    margin-right: 5px;
+}
+main .register-advertisment-container .section3 .ad-description-container textarea {
+    width: 450px;
+    height: 90px;
+    padding: 1dvh 0.5dvw 0px 0px;
+    margin-top: 10px;
+    margin-right: 5px;
+    font-family: iransans;
+    resize: none;
+    border-radius: 10px;
+}
+
+main .register-advertisment-container .section3 .ad-pictures-container {
+    width: 95%;
+    margin: auto;
+    margin-bottom: 30px;
+    
+}
+main .register-advertisment-container .section3 .ad-pictures-container .title {
+    font-family: iransans;
+    font-size: 15px;
+    margin-right: 5px;
+}
+
+main .register-advertisment-container .section3 .ad-pictures-container .pictures-input-container {
+    width: 100%;
+    height: 200px;
+    margin-top: 15px;
+    border-radius: 20px;
+    border: 5px dashed rgb(31, 31, 31);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+main .register-advertisment-container .section3 .ad-pictures-container .pictures-input-container input {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0;
+}
+main .register-advertisment-container .section3 .ad-pictures-container .pictures-input-container .texts-container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    pointer-events: none;
+}
+main .register-advertisment-container .section3 .ad-pictures-container .pictures-input-container .texts-container img {
+    width: 4dvw;
+    height: 4dvw;
+    user-select: none;
+    pointer-events: none;
+}
+main .register-advertisment-container .section3 .ad-pictures-container .pictures-input-container .texts-container .wrapper {
+    background-color: rgb(31, 31, 31);
+    width: 100px;
+    height: 2px;
+    margin-top: 1dvh;
+}
+main .register-advertisment-container .section3 .ad-pictures-container .pictures-input-container .texts-container .text {
+    font-family: iransans;
+    color: white;
+    font-size: 16px;
+    margin-top: 1dvh;
+}
+
+main .register-advertisment-container .submit-ad {
+    color: black;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    border: 0px;
+    background-color: #f2b822;
+    font-family: iransans;
+    font-size: 2.5dvh;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+main .register-advertisment-container .submit-ad:hover {
+    opacity: 0.8;
+}
